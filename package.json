@@ -1,0 +1,31 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/*.spec.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Serghei88/typescript.git"
+  },
+  "author": "Serghei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Serghei88/typescript/issues"
+  },
+  "homepage": "https://github.com/Serghei88/typescript#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.4",
+    "@types/mocha": "^5.2.2",
+    "@types/sinon": "^5.0.1",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0",
+    "sinon": "^6.0.0",
+    "ts-node": "^6.1.1"
+  },
+  "dependencies": {
+    "typescript": "^2.9.2"
+  }
+}
